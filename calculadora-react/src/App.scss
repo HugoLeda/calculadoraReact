@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tela {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding: 0 20px;
+  background-color: #444;
+  width: 260px;
+
+  span {
+    color: #fff;
+  }
+  
+  span.operacao {
+    font-size: 25px;    
+    height: 20;
+  }
+
+  span.res {
+    font-size: 50px;
+  }
+}
+
+.btn {
+  font-size: 30px;
+  height: 75px;
+  width: 75px;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+  text-align: center;
+  outline: none;
+}
