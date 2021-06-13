@@ -60,6 +60,14 @@ body {
   transition: linear 0.1s;
 }
 
+.red {
+  color: rgb(255, 0, 0);
+}
+
+.green {
+  color: rgb(0, 255, 0)
+}
+
 .btn:hover {
   background-color: #333;
 }
