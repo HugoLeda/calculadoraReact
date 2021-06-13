@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 function App() {
 
-  const [valorTela, setValorTela] = useState('')
+  const [valorTela, setValorTela] = useState(' ')
   const [resultado, setResultado] = useState(0)
   const [acumulador, setAcumulador] = useState(0)
   const [operado, setOperado] = useState(false)
@@ -19,9 +19,9 @@ function App() {
     )
   }
 
-  const Btn = (lbl, onClick) => {
+  const Btn = (lbl, onClick, style) => {
     return (
-      <button className="btn" onClick={onClick}>{lbl}</button>
+      <button className={style} onClick={onClick}>{lbl}</button>
     )
   }
 
@@ -73,7 +73,7 @@ function App() {
         <h3>Calculadora Simples</h3>
         {Tela(valorTela, resultado)}
         <div className="teclado">
-          {Btn('AC', limparMemoria)}
+          {Btn('C', limparMemoria)}
           {Btn('(', () => addDigitoTela('('))}
           {Btn(')', () => addDigitoTela(')'))}
           {Btn('/', () => addDigitoTela('/'))}
