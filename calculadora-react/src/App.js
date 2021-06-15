@@ -21,11 +21,7 @@ function App() {
 
   const Btn = (lbl, onClick) => {
     return (
-<<<<<<< HEAD
       <button onClick={onClick}>{lbl}</button>
-=======
-      <button className="btn" onClick={onClick}>{lbl}</button>
->>>>>>> parent of c44117b (style)
     )
   }
 
@@ -77,11 +73,7 @@ function App() {
         <h3>Calculadora Simples</h3>
         {Tela(valorTela, resultado)}
         <div className="teclado">
-<<<<<<< HEAD
           {Btn('C', limparMemoria())}
-=======
-          {Btn('AC', limparMemoria)}
->>>>>>> parent of c44117b (style)
           {Btn('(', () => addDigitoTela('('))}
           {Btn(')', () => addDigitoTela(')'))}
           {Btn('/', () => addDigitoTela('/'))}
