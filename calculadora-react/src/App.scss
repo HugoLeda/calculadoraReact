@@ -4,44 +4,27 @@
   box-sizing: border-box;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 10vh;
-  width: 310px;
-  border: 1px solid #000;
-  background-color: #000;
-}
-
 .tela {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
 
   padding: 0 20px;
-  background-color: #000;
-  width: 100%;
+  background-color: #444;
+  width: 260px;
 
   span {
     color: #fff;
   }
   
   span.operacao {
-    font-size: 2rem;    
-    height: 2.1rem;
+    font-size: 25px;    
+    height: 20;
   }
 
   span.res {
-    font-size: 1.75rem;
+    font-size: 50px;
   }
 }
 
@@ -50,16 +33,14 @@ body {
   height: 75px;
   width: 75px;
   padding: 20px;
-  background-color: #111;
+  background-color: #000;
   color: #fff;
   border-color: #000;
   text-align: center;
-  outline: none;  
-  border-radius: 100%;
-  margin: 1px;
-  transition: linear 0.1s;
+  outline: none;
 }
 
+<<<<<<< HEAD
 .red {
   color: rgb(255, 0, 0);
 }
@@ -70,6 +51,15 @@ body {
 
 .btn:hover {
   background-color: #333;
+=======
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 305px;
+  border: 1px solid #000;
+>>>>>>> parent of c44117b (style)
 }
 
 .teclado {
